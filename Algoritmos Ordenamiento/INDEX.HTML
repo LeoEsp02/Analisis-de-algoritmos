@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MENU.CSS">
+  <title>Algoritmos Menu</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+    </header>
+    <br>
+
+    <div class="menu">
+      <h1><center>Algoritmos de ordenamiento</center></h1>
+      <button class="button" href="bubble.HTML"><a href="bubble.HTML">BURBUJA</a></button>
+      <button class="button"><a href="Insercion.HTML">INSERCION</a></button>
+      <button class="button"><a href="SELECCION.HTML">SELECCION</a></button>
+      <button class="button"><a href="Merge.HTML">MERGE</a></button>
+
+      <button class="button"><a href="QUICK.HTML">QUICK</a></button>
+      <button class="button"><a href ="TIPOSDBUSQUEDA.HTML">BUSQUEDAS</a></button>
+      <button class="button"><a href ="COMPARACION.HTML">COMPARACION</a></button>
+      <button class="button" onclick="mostrarIntegrantes()">INTEGRANTES</button>
+    </div>
+
+    <script>
+      // Función para mostrar la ventana emergente con los nombres de los integrantes
+      function mostrarIntegrantes() {
+        // Nombres 
+        var nombres = ["Sebastian Rodela Castillo (2173510277)","Daniel Turrubiates Cervantes (2213520322)","Leonardo Ramos Espinoza (2173510264)","Marco Antonio Soria Ortiz (2173510311)"];
+
+        // Mostrar la ventana emergente directamente
+        alert("Integrantes:\n\n" + nombres.join("\n"));
+      }
+    </script>
+  </div>
+</body>
+
+</html>

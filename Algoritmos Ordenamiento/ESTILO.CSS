@@ -1,0 +1,103 @@
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.02) 50%, transparent 50%), linear-gradient(135deg, #e0bb0077 50%, transparent 50%);
+}
+
+.container {
+  background-color: #e5e5e5;
+  max-width: 555px;
+  margin: 100 auto;
+  border-radius: 60px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btnArreglo {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: sienna;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnRegresar {
+  display: inline-flexbox;
+  padding: 10px 20px;
+  margin-top: 1px;
+  background-color: sienna;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnRegresar:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnArreglo:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-valores {
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tabla-valores th, .tabla-valores td {
+  padding: 5px;
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+.tabla-valores tbody tr:nth-child(even) {
+  background-color: #b37e1baf;
+}
+
+.tabla-valores tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tabla-valores thead {
+  background-color: peru;
+  color: #000000;
+}
+
+.tabla-valores th {
+  padding: 30px;
+}

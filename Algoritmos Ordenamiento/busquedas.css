@@ -1,0 +1,94 @@
+body {
+  font-size: 16px; /* Reduje el tamaño de la fuente en el cuerpo */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.02) 50%, transparent 50%), linear-gradient(135deg, #e0bb0077 50%, transparent 50%);
+}
+
+.container {
+  background-color: #e5e5e5;
+  max-width: 555px;
+  margin: 100 auto;
+  border-radius: 30px; /* Reduje el radio del borde */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px; /* Reduje el tamaño de la fuente del título */
+  margin-bottom: 15px; /* Reduje el espacio entre el título y el resto del contenido */
+}
+
+.btnArreglo {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: sienna;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btnRegresar {
+  display: inline-block;
+  padding: 10px 20px; /* Reduje el relleno de los botones */
+  margin-top: 10px; /* Reduje el espacio superior de los botones */
+  font-size: 16px; /* Reduje el tamaño de la fuente de los botones */
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: sienna;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnRegresar:hover,
+.btnArreglo:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-valores {
+  border-collapse: collapse; /* Cambiado de 'separate' a 'collapse' para reducir los espacios entre las celdas */
+  width: 100%;
+  overflow-x: auto; /* Para habilitar el desplazamiento horizontal */
+  border-radius: 10px; /* Reduje el radio del borde */
+}
+
+.tabla-valores th, .tabla-valores td {
+  padding: 8px; /* Reduje el relleno de las celdas */
+  text-align: center;
+  border: 2px solid #000000; /* Reduje el ancho del borde */
+}
+
+.tabla-valores tbody tr:nth-child(even) {
+  background-color: #b37e1baf;
+}
+
+.tabla-valores tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tabla-valores thead {
+  background-color: peru;
+  color: #000000;
+}
+
+.tabla-valores th {
+  padding: 15px; /* Reduje el relleno de las celdas de encabezado */
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Sort</title>
+    <link rel="stylesheet" href="ESTILO.CSS" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+  </head>
+  <body>
+    <div class="container"> 
+      <h1 class="title">Bienvenido al metodo Quick Sort</h1>
+      <div class="contenedorTablaGrafica">
+        <div class="contenedorFormTabla">
+          <form>
+            <h3>
+              Introduce el numero de datos con los que quieras trabajar y espera
+              el dato
+            </h3>
+
+            <div class="campos">
+              <div class="campo">
+                <label><strong>Numero datos:</strong></label>
+                <input id="size" type="number" />
+              </div>
+
+              <input id="btn" type="submit" value="Ejecutar ordenamiento" class="btnArreglo">
+            </div>
+        <div class="contenedorGrafica">
+          <canvas id="grafica" class="grafica"></canvas>
+        </div>
+     
+      <div id="contenedorTabla"></div>
+      <label>Este metodo de ordenamiento tiene la complejidad <strong>"O(n log n)"</strong></label>
+
+      <div class="seccion-botones">
+        <br>
+        <a href="index.html" class="btnRegresar">INICIO</a>
+      </div>
+    </div>
+
+    <script src="QUICKSORT.JS"></script>
+  </body>
+</html>

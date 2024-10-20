@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparacion Algoritmos</title>
+  <link rel="stylesheet" href="Proyecto.CSS" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Comparacion de algoritmos de ordenamiento</h1>
+    <h3>Burbuja, Seleccion, Insercion, Mezcla (Merge) y Rapido (Quick)</h3>
+    <p>Bienvenido, escribe el dato para realizar la comparacion</p>
+    <form>
+      <br>
+      <div class="campos">
+        <label for="size"><strong>Tamaño del arreglo:</strong></label>
+        <input type="number" id="size" />
+      </div>
+      <input id="btn" type="submit" value="Realizar comparacion" class="btnArreglo">
+<br>
+    </form>
+
+    <div id="contenedorTablaBurbuja" class="contenedorTabla"></div>
+    <div id="contenedorTablaInsercion" class="contenedorTabla"></div>
+    <div id="contenedorTablaSeleccion" class="contenedorTabla"></div>
+    <div id="contenedorTablaMerge" class="contenedorTabla"></div>
+    <div id="contenedorTablaQuick" class="contenedorTabla"></div>
+<br>
+    <canvas id="grafica" width="1000" height="700"></canvas>
+    <div class="seccion-botones">
+      <br>
+      <a href="index.html" class="btnRegresar">INICIO</a>
+    </div>
+
+  </div>
+  
+  <script src="COMPARACION.JS"></script>
+</body>
+
+</html>
